@@ -1,0 +1,117 @@
+/* rgb(254, 243, 226)
+rgb(250, 177, 47)
+rgb(250, 129, 47)
+rgb(250, 64, 50) */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(248, 246, 242);
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+img {
+  height: 100vh;
+}
+
+#container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  position: absolute;
+  top: 96vh;
+  left: 380px;
+  font-size: 14px;
+}
+
+form {
+  justify-content: center;
+}
+
+#submit-btn {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: rgb(250, 129, 47);
+  color: ivory;
+  padding: 10px 50px;
+  border: none;
+  margin: 40px 0px;
+}
+
+@font-face {
+  font-family: odin;
+  src: url(resources/Norse-Bold.woff2) format(woff2),
+    url(resources/Norse-Bold.woff) format(woff);
+}
