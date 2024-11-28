@@ -115,3 +115,11 @@ form {
   src: url(resources/Norse-Bold.woff2) format(woff2),
     url(resources/Norse-Bold.woff) format(woff);
 }
+
+fieldset {
+  border: none;
+}
+
+legend {
+  margin-bottom: 20px;
+}
