@@ -18,6 +18,7 @@ body {
   display: flex;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(248, 246, 242);
+  scale: 0.75;
 }
 
 /* 5. Improve media defaults */
